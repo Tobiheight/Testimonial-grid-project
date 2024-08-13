@@ -1,7 +1,7 @@
 <template>
   <main class="h-full w-full flex items-center justify-center bg-sky-100 py-10 font-main">
 
-    <article class="tablet:w-[90%] tablet:grid-cols-4 tablet:gap-x-5 tablet:grid-row-2
+    <article class="tablet:w-[87%] tablet:grid-cols-4 tablet:gap-x-5 tablet:grid-row-2
 
     mid:grid-cols-1 mid:grid-row-2 
     
@@ -27,9 +27,9 @@
         <div class="tablet:grid-cols-3 tablet:gap-x-5 
          mid:grid-cols-2 mid:row-span-1 mid:gap-x-5">
 
-          <div class="home-wrap bg-viol tablet:col-span-2 mid:col-span-1">
+          <div class="home-wrap bg-viol relative tablet:col-span-2 mid:col-span-1">
 
-            <div class="info ">
+            <div class="info">
 
               <img src="./assets/images/image-daniel.jpg" alt="" class=" border-violet-400">
 
@@ -43,7 +43,7 @@
 
             </div>
 
-            <h3>{{ jsonData[0].head }}</h3>
+            <h3 class="z-40">{{ jsonData[0].head }}</h3>
             <p>"{{ jsonData[0].main }}"</p>
 
           </div>
